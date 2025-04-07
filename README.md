@@ -6,7 +6,6 @@ After cloning this repository, use below commands to run the project
 
 python3 manage.py makemigrations
 python3 manage.py migrate
-
 python3 manage.py runserver
 
 Access the url in the browser

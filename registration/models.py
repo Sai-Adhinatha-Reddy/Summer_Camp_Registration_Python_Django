@@ -7,6 +7,7 @@ class Registration(models.Model):
     father_name = models.CharField(max_length=255)
     mobile_number = models.CharField(max_length=20)
     location = models.CharField(max_length=255)
+    email = models.CharField(max_length=255)
     timestamp = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
